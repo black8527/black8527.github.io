@@ -156,10 +156,20 @@
     line-height: 35px;
     font-size: 12px;
     color: #666666;
-
+    font-family: 'icomoon';
+}
+.header div.w div.shop-car::before{
+    content: '\e93a';
+    color: #b1191a;
+}
+.header div.w div.shop-car::after{
+    content: '\e920';
+    color: #b1191a;
 }
 .header div.w div.shop-car span.count{
     position: absolute;
+    top: -8px;
+    left: 102px;
     background-color: #c81623;
     color: white;
     width: 19px;
