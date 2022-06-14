@@ -38,8 +38,21 @@
 }
 
 .shortcut div.w ul.right{
+    float: right;
+}
+
+.shortcut div.w ul.right li{
+    float: right;
+    font-size: 12px ;
 
 }
-.shortcut div.w ul.right li{
 
+.shortcut div.w ul.right li>a{
+    text-decoration: none;
+    color: #666666;
+    padding: 0 15px;
+    line-height: 36px;
+}
+.shortcut div.w ul.right li:hover{
+    color: #c81623;
 }
