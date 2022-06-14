@@ -73,10 +73,15 @@
 .header div.w{
     border: 1px solid red;
     height: 80px;
+    position: relative;
 }
 .header div.w div.logo h1 a{
-    float: left;
-    background: url("../images/logo.png");
+    position: absolute;
+    bottom: 0;
+    width: 171px;
+    height: 61px;
+    font-size: 0;
+    background: url("../images/logo.png") no-repeat center center;
 }
 
 
