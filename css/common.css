@@ -1,7 +1,9 @@
+/*版心*/
 .w{
+    box-sizing: border-box;
     width: 1200px;
     margin: auto;
-
+    background-color: white;
 }
 .shortcut{
 
@@ -12,9 +14,32 @@
 .shortcut .w {
     height: 100%;
 }
-.shortcut .w .left{
+.shortcut div.w ul.left{
+    float: left;
+}
+.shortcut div.w ul.left li{
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    line-height: 30px;
+    margin-right: 10px;
 
 }
-.shortcut .w .right{
+.shortcut div.w ul.left li>a{
+    color: #666666;
+    line-height: 30px;
+    text-decoration: none;
+}
+.shortcut div.w ul.left li:nth-child(2)>a:hover{
+    color: #c81623;
+}
+.shortcut div.w ul.left li:last-child>a{
+    color: #c81623;
+}
+
+.shortcut div.w ul.right{
+
+}
+.shortcut div.w ul.right li{
 
 }
