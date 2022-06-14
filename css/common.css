@@ -84,8 +84,39 @@
     background: url("../images/logo.png") no-repeat center center;
 }
 
+/*搜索部分*/
 
+.header div.w div.search{
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-sizing: border-box;
+    width: 537px;
+    height: 35px;
+    border: 1px solid #b1191a;
+}
 
+.header div.w div.search input{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    height: 33px;
+    width: 454px;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.header div.w div.search button{
+    position: absolute;
+    right: 0;
+    background-color: #b1191a;
+    border: none;
+    width: 76px;
+    height: 33px;
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
 
 
 
