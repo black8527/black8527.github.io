@@ -64,8 +64,20 @@
 
 
 
+/*header部分*/
+.header{
+    border: 1px solid red;
+    height: 80px;
 
-
+}
+.header div.w{
+    border: 1px solid red;
+    height: 80px;
+}
+.header div.w div.logo h1 a{
+    float: left;
+    background: url("../images/logo.png");
+}
 
 
 
