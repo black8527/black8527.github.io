@@ -119,7 +119,28 @@
     cursor: pointer;
 }
 
+/*热词样式*/
 
+.header div.w ul.hot-words{
+    position: absolute;
+    bottom: 0;
+    left: 330px;
+}
+.header div.w ul.hot-words li{
+    float: left;
+}
+.header div.w ul.hot-words li a{
+    padding: 0 10px;
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+}
+.header div.w ul.hot-words li a:hover{
+    color: #b1191a;
+}
+.header div.w ul.hot-words li:first-child a{
+    color: #b1191a;
+}
 
 
 
