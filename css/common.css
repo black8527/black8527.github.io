@@ -200,16 +200,21 @@
 }
 .nav div.w div.dropdown dd {
     padding-left: 2px;
+    width: 192px;
     border-left: 2px solid #b1191a;
     background-color: #b1191a;
+}
+.nav div.w div.dropdown dd:hover::after{
+    background-color: white;
+    color: #b1191a;
 }
 .nav div.w div.dropdown dd:hover a{
     background-color: white;
     color: #b1191a;
 }
 .nav div.w div.dropdown dd a{
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 90%;
     height: 31px;
     background-color: #b1191a;
     text-decoration: none;
@@ -217,9 +222,28 @@
     font-size: 14px;
     line-height: 31px;
 }
+.nav div.w div.dropdown dd::after{
+    font-family: 'icomoon';
+    content: '\e920';
+    color: white;
+    height: 31px;
+    line-height: 31px;
+}
 
-
-
+/*导航物品*/
+.nav div.w ul.navitems{
+    float: left;
+}
+.nav div.w ul.navitems li a{
+    text-decoration: none;
+    color: #333;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 25px;
+}
+.nav div.w ul.navitems li a:hover{
+    color: #c81623;
+}
 
 
 
