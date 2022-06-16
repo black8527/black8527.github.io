@@ -66,12 +66,12 @@
 
 /*header部分*/
 .header{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 80px;
 
 }
 .header div.w{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 80px;
     position: relative;
 }
@@ -186,16 +186,36 @@
     box-sizing: border-box;
     height: 48px;
     border-bottom: 2px solid #b1191a;
-
-}
-.nav div.w{
-
+    font-size: 16px;
 }
 .nav div.w div.dropdown{
+    float: left;
 
 }
-.nav div.w div.navitems{
-
+.nav div.w div.dropdown dt{
+    color: white;
+    background-color: #b1191a;
+    line-height: 48px;
+    text-align: center;
+}
+.nav div.w div.dropdown dd {
+    padding-left: 2px;
+    border-left: 2px solid #b1191a;
+    background-color: #b1191a;
+}
+.nav div.w div.dropdown dd:hover a{
+    background-color: white;
+    color: #b1191a;
+}
+.nav div.w div.dropdown dd a{
+    display: block;
+    width: 100%;
+    height: 31px;
+    background-color: #b1191a;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    line-height: 31px;
 }
 
 
