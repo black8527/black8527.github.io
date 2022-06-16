@@ -180,6 +180,22 @@
 }
 
 
+/*nav部分*/
+.nav{
+    box-sizing: border-box;
+    height: 48px;
+    border-bottom: 2px solid #b1191a;
+
+}
+.nav div.w{
+
+}
+.nav div.w div.dropdown{
+
+}
+.nav div.w div.navitems{
+
+}
 
 
 
