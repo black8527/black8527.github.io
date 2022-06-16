@@ -234,6 +234,10 @@
 .nav div.w ul.navitems{
     float: left;
 }
+.nav div.w ul.navitems li{
+
+    display: inline-block;
+}
 .nav div.w ul.navitems li a{
     text-decoration: none;
     color: #333;
@@ -245,8 +249,29 @@
     color: #c81623;
 }
 
+/*脚部*/
+.footer{
+    height: 400px;
+    margin-top: 600px;
+    background-color: #dfdfdf;
+}
 
+.footer ul.mod-service a{
+    text-decoration: none;
+    color: #666666;
 
+}
+
+.footer ul.mod-service li{
+    width: 240px;
+    float: left;
+}
+.footer ul.mod-service a i{
+    float: left;
+    width: 49px;
+    height: 49px;
+    background: url("../images/icons.png") no-repeat -253px -3px;
+}
 
 
 
